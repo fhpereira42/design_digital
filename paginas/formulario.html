@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap&family=Nunito:wght@200&family=Yellowtail&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="../imagens/logo2.ico">  
+    <link rel="stylesheet" type="text/css" href="../css/estilomenu.css">
+    <link rel="stylesheet" tyoe="text/css" href="../css/formcont.css">
+    <script src="../javascript/validacao_contato.js"></script>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
+    </style>
+
+    <title>Design Digital</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="topo">
+                <div id="barranav">                
+                    <div id="menu">
+                        <ul>
+                            <li><a href="../index.html" class="linkmenu">Pagina inicial</a></li>
+                            <li>
+                                <a href="#" class="linkmenu">Quem somos</a>
+                                <ul class="submenu">
+                                    <li><a href="../paginas/portfolio.html" class="linkmenu">Portfólio</a></li>
+                                    <li><a href="../paginas/apresentacao.html" class="linkmenu">Apresentação</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="../paginas/formulario.html" class="linkmenu">Deixe seu contato</a> </li>
+                            <li><a href="../paginas/redes.html" class="linkmenu">Redes sociais</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header> 
+
+<section>
+    <main class="containerf">
+        <h2>Deixe seu contato</h2>
+        <form  name="formulario" action="">
+            <div class="input-field">
+                <input type="text" name="nome" id="nome"
+                    placeholder="Digite seu nome">
+                    <div class="underline"></div>
+            </div>
+
+            <div class="input-field">
+                <input type="mail" name="email" id="email"
+                    placeholder="Digite seu email">
+                    <div class="underline"></div>
+            </div>
+
+            <div class="input-field">
+                <input type="tel"  name="whats" id="whats" 
+                    placeholder="Digite seu whatsapp">
+                    <div class="underline"></div>
+            </div>
+
+            <input type="submit" value="ENVIAR" onclick="validar()">
+                <input type="reset" value="LIMPAR">
+        </form>
+        </div>
+    </main>
+</section>   
+</body>
